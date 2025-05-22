@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kategorija A2</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 240px;
+      background-color: #2b6cb0;
+      height: 100vh;
+      color: white;
+      padding: 30px 20px;
+      position: fixed;
+    }
+
+    .sidebar h2 {
+      margin-top: 0;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .sidebar a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin: 20px 0;
+      padding: 10px;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+
+    .sidebar a:hover {
+      background-color: #1e4e85;
+    }
+
+    /* Content */
+    .main-content {
+      margin-left: 240px;
+      padding: 40px;
+      width: 100%;
+    }
+
+    .card {
+      background-color: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card h1 {
+      color: #2b6cb0;
+      margin-top: 0;
+    }
+
+    .card ul {
+      padding-left: 20px;
+      line-height: 1.8;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 24px;
+      background-color: #2b6cb0;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        text-align: center;
+      }
+      .main-content {
+        margin-left: 0;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Kategorii</h2>
+    <a href="EndProjekt.html">🏠 Start</a>
+    <a href="am.html">AM</a>
+    <a href="a1.html">A1</a>
+    <a href="a2.html"><strong>A2</strong></a>
+    <a href="a.html">A</a>
+  </div>
+
+  <div class="main-content">
+    <div class="card">
+      <h1>Kategorija A2</h1>
+      <p><strong>Kategorija A2</strong> vi dozvoluva da vozite sredno jaki motori. Ta e most meѓu A1 i A kategorijata i e pogodna za vozachi so sredno iskustvo.</p>
+
+      <h2>Specifikacii</h2>
+      <ul>
+        <li>Motori do <strong>35 kW</strong> (okolu 48 PS)</li>
+        <li>Odnos mokj/masa do 0.2 kW/kg</li>
+        <li>Minimalna vozrast: <strong>18 godini</strong></li>
+      </ul>
+
+      <h2>Primeri na motori</h2>
+      <ul>
+        <li>Yamaha MT-03</li>
+        <li>KTM Duke 390</li>
+        <li>Kawasaki Ninja 400</li>
+      </ul>
+
+      <h2>Prednosti</h2>
+      <ul>
+        <li>Dobro balansiran motor za ulichna i patna vožnja</li>
+        <li>Pomalku trošoci vo odnos na kategoriја A</li>
+        <li>Odličen premin kon pojaсh moto klasa</li>
+      </ul>
+
+      <a class="back-btn" href="EndProjekt.html">← Nazad na Start</a>
+    </div>
+  </div>
+
+</body>
+</html>
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kategorija A</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Segoe UI', Tahoma, sans-serif; background: #f4f4f4; color: #333; display: flex; }
+    .sidebar { width: 240px; background: #2b6cb0; color: white; padding: 30px 20px; height: 100vh; position: fixed; }
+    .sidebar h2 { margin-top: 0; font-size: 24px; text-align: center; }
+    .sidebar a { display: block; color: white; text-decoration: none; margin: 20px 0; padding: 10px; border-radius: 6px; transition: background 0.2s; }
+    .sidebar a:hover { background-color: #1e4e85; }
+    .main-content { margin-left: 240px; padding: 40px; width: 100%; }
+    .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.1); max-width: 900px; margin: auto; }
+    .card h1 { color: #2b6cb0; }
+    ul { padding-left: 20px; line-height: 1.8; }
+    .back-btn { display: inline-block; margin-top: 30px; padding: 12px 24px; background: #2b6cb0; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; }
+    @media (max-width: 768px) {
+      .sidebar { position: relative; width: 100%; height: auto; text-align: center; }
+      .main-content { margin-left: 0; padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>Kategorii</h2>
+  <a href="EndProjekt.html">🏠 Start</a>
+  <a href="am.html">AM</a>
+  <a href="a1.html">A1</a>
+  <a href="a2.html">A2</a>
+  <a href="a.html"><strong>A</strong></a>
+</div>
+
+<div class="main-content">
+  <div class="card">
+    <h1>Kategorija A</h1>
+    <p>Najvisokata kategorija za site tipovi na motori i tricikli bez ogranicuvanja.</p>
+
+    <h2>Specifikacii</h2>
+    <ul>
+      <li>Nema ogranicuvanja vo mokj ili masa</li>
+      <li>Direktno od 24 godini ili 20 godini so A2 + 2 godini iskustvo</li>
+      <li>Motori nad 35 kW i sport bikes</li>
+    </ul>
+
+    <h2>Primer vozila</h2>
+    <ul>
+      <li>Yamaha MT-09</li>
+      <li>Honda CBR1000RR</li>
+      <li>BMW S1000RR</li>
+    </ul>
+
+    <h2>Prednosti</h2>
+    <ul>
+      <li>Neograničen pristap do bilo kakov motor</li>
+      <li>Idealen za patuvanja i trki</li>
+      <li>Celosna sloboda na dvotočkaš!</li>
+    </ul>
+
+    <a class="back-btn" href="EndProjekt.html">← Nazad na Start</a>
+  </div>
+</div>
+
+</body>
+</html>
